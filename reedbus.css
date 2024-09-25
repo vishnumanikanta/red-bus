@@ -381,27 +381,91 @@ nav {
     margin-left: 20px; 
     position: relative;
 }
-.govsection{
-    margin:20% 10%;
-font: 100px;
-font-size: 30px;
-font-family: Montserrat;
+section{
+    display: flex;
 }
-.offer-container5{
+.govsection {
+    margin: 20% 10%;
+    font-family: Montserrat, sans-serif;
+    
+  }
+  
+  .offer-container5 {
     background: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 25px;
     border-radius: 16px;
-    padding: 1.5rem; 
-    width: 1215px;
-    height: 258px; 
+    padding: 1.5rem;
+    width: 450px;
+    height: 208px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-   background-color: white;
-   box-shadow: #555;
-    color: #fff;
+    color: #000;
     margin-top: 25px;
-    margin-left: 20px; 
+    margin-left: 5px;
     position: relative;
-}
-
+  }
+  
+  .details img {
+    height: 54px;
+    width: 54px;
+    margin-top: -10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1D1D1D;
+  }
+  
+  .telugu {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a3a3a3;
+  }
+  
+  .card {
+    margin-left: 14%;
+    margin-top: -60px;
+  }
+  
+  hr {
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid #d3d3d3;
+  }
+  
+  .govdes {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .apsrtc {
+    margin-top: 10px;
+    height: 40px;
+    background: #f2f2f8;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .apsrtc h6 {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+  }
+  
+  .apsrtc img {
+    height: 24px;
+    width: auto;
+    position: absolute;
+    left: 25px;
+  }
+  
