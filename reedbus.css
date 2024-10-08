@@ -381,16 +381,20 @@ nav {
     margin-left: 20px; 
     position: relative;
 }
-section{
-    display: flex;
-}
 .govsection {
     margin: 20% 10%;
     font-family: Montserrat, sans-serif;
-    
-  }
-  
-  .offer-container5 {
+}
+
+.posters {
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap; 
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.offer-container5 {
     background: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 25px;
     border-radius: 16px;
@@ -402,48 +406,49 @@ section{
     justify-content: flex-start;
     color: #000;
     margin-top: 25px;
-    margin-left: 5px;
     position: relative;
-  }
-  
-  .details img {
+    flex-shrink: 0; 
+}
+
+.details img {
     height: 54px;
     width: 54px;
     margin-top: -10px;
-  }
-  
-  .title {
+}
+
+.title {
     font-size: 24px;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     color: #1D1D1D;
-  }
-  
-  .telugu {
+}
+
+.telugu {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #a3a3a3;
-  }
-  
-  .card {
+}
+
+.card {
     margin-left: 14%;
-    margin-top: -60px;
-  }
-  
-  hr {
+    margin-top: -65px;
+}
+
+hr {
     margin-top: 20px;
     border: none;
     border-top: 1px solid #d3d3d3;
-  }
-  
-  .govdes {
+}
+
+.govdes {
     font-size: 18px;
     color: #666;
     margin-top: 10px;
     text-align: center;
-  }
-  
-  .apsrtc {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apsrtc {
     margin-top: 10px;
     height: 40px;
     background: #f2f2f8;
@@ -454,18 +459,32 @@ section{
     justify-content: center;
     align-items: center;
     position: relative;
-  }
-  
-  .apsrtc h6 {
+}
+
+.apsrtc h6 {
     font-size: 14px;
     color: #888;
     margin: 0;
-  }
-  
-  .apsrtc img {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apsrtc img {
     height: 24px;
     width: auto;
     position: absolute;
     left: 25px;
-  }
-  
+}
+
+
+.posters::-webkit-scrollbar {
+    height: 8px;
+}
+
+.posters::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.posters::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
