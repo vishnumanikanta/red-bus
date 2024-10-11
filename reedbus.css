@@ -502,28 +502,24 @@ hr {
     margin-top: -15%;
 }
 
-.text-section {
+.text-section1 {
     max-width: 600px;
-    line-height: 1.5; 
+    line-height: 1.5;
 }
 
-.text-section h1 {
+.text-section1 h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     color: #000;
-    line-height: 1.2; 
-}
-
-
-.text-section h1 span {
-    color: #d42e2e;
+    line-height: 1.3;
 }
 
 .trainlogo {
     display: flex;
     align-items: center;
     margin-top: 40px;
-    line-height: 1; 
+    line-height: 1;
+    position: relative; 
 }
 
 .trainlogo img {
@@ -538,7 +534,8 @@ hr {
     display: inline-block;
     position: relative;
     color: #d42e2e;
-    line-height: 1; }
+    line-height: 1;
+}
 
 .trainlogo h6::before {
     content: "";
@@ -552,11 +549,12 @@ hr {
     border-radius: 2px;
 }
 
-.text-section p {
+.text-section1 p {
     font-size: 18px;
-    margin-top: 40px;
+    margin-top: 50px; 
     color: #666;
-    line-height: 1.8; 
+    line-height: 1.9;
+    clear: both; 
 }
 
 .features {
@@ -569,8 +567,7 @@ hr {
     margin: 20px 0;
     display: flex;
     align-items: center;
-    line-height: 1.5; 
-    
+    line-height: 1.5;
 }
 
 .features p img {
@@ -579,13 +576,22 @@ hr {
 }
 
 .train-image {
-    max-width: 600px;
-    margin-left: 30px; 
+    max-width: 650px;
+    margin-left: 0; /* Reset to 0 for better control */
+    margin-right: -130px; /* Add margin to the right to create space */
+    position: relative;
+    background-image: url('https://s3.rdbuz.com/web/images/homeV2/AboutUs/aboutUsImg.svg');
+    background-size: 564px 612px;
+    background-position: 50% center; /* Center the background image */
+    background-repeat: no-repeat;
 }
 
 .train-image img {
-    width: 110%; 
-    height: auto;
+    width: 634px;
+    height: 612px;
+    position: relative;
+    z-index: 1;
+    margin-left: 0; /* Reset margin */
 }
 
 .button {
