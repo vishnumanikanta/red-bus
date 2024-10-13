@@ -577,12 +577,12 @@ hr {
 
 .train-image {
     max-width: 650px;
-    margin-left: 0; /* Reset to 0 for better control */
-    margin-right: -130px; /* Add margin to the right to create space */
+    margin-left: 0; 
+    margin-right: -130px; 
     position: relative;
     background-image: url('https://s3.rdbuz.com/web/images/homeV2/AboutUs/aboutUsImg.svg');
     background-size: 564px 612px;
-    background-position: 50% center; /* Center the background image */
+    background-position: 50% center; 
     background-repeat: no-repeat;
 }
 
@@ -591,7 +591,7 @@ hr {
     height: 612px;
     position: relative;
     z-index: 1;
-    margin-left: 0; /* Reset margin */
+    margin-left: 0;
 }
 
 .button {
@@ -604,4 +604,112 @@ hr {
     border-radius: 15px;
     text-decoration: none;
     font-size: 18px;
+}
+.appInstallWrapper {
+    display: flex;
+
+    align-items: center;
+    background-image: url("https://s1.rdbuz.com/web/images/homeV2/appinstall/appInstallbg.svg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin-left: 10%;
+    border-radius: 15px;
+    width: 1230px;
+    height: 442px;
+    border-radius: 40px;
+}
+
+.appInstallContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    color: #fff;
+}
+
+.appInstallContainer h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-left: -55%;
+}
+
+.appInstallContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* White box around Quick Access and Ratings */
+.appInfo {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 376px; 
+    height: 298px;
+   margin-top: 4%;
+    margin-left: 30px;
+}
+
+.keyFeatures {
+    margin-bottom: 20px;
+}
+
+.keyFeature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+}
+
+.keyFeature .tick {
+    width: 20px;
+    height: 20px;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    color: #333; 
+}
+
+.appInstallRight {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.qrSection {
+    text-align: center;
+}
+
+.qrImg {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.downloadLinks {
+    text-align: center;
+}
+
+.storeIcons img {
+    margin-top: 10px;
+    margin-right: 10px;
 }
