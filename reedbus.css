@@ -662,6 +662,7 @@ hr {
 
 .keyFeatures {
     margin-bottom: 20px;
+   
 }
 
 .keyFeature {
@@ -669,6 +670,7 @@ hr {
     align-items: center;
     gap: 10px;
     font-size: 1.2em;
+    padding-top: 10px;
 }
 
 .keyFeature .tick {
